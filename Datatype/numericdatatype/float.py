@@ -1,0 +1,9 @@
+x=10.60
+y=20.60
+z1=x+y
+z2=x-y
+z3=x*y
+z4=x/y
+z5=x%y
+print(z1)
+print(type(z1))
