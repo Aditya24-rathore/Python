@@ -59,7 +59,7 @@ d={"name":"aditya","age":20}
 d.setdefault("name2","aditya")
 print(d)
 
-# uodate
+# update
 d={"name":"aditya","age":20}
 d1={"qual":"B.tech"}
 d.update(d1)
