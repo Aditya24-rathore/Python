@@ -98,3 +98,29 @@ print(s)
 # empty set declare
 s1=set()
 print(s1)
+
+# empty variable declare
+x=int()
+y=str()
+z=complex()
+a=float()
+b=list()
+c=tuple()
+print(x,z,a,b,c)
+print(y)
+
+# typecasting
+n=input("enter any value")
+d=list(n)
+e=tuple(n)
+f=set(n)
+g=frozenset(n)
+# typecasting is not possible in dictionary(it has key and value pair)
+h=dict.fromkeys(n)
+print(d,e,f,g,h)
+
+
+dict={"name":"aditya","age":20}
+type=list(dict)
+str=list(dict)
+print(type,str)
