@@ -35,7 +35,7 @@ print(s2)
 
 # isdisjoint - s1 and s2 element are different
 s1={1,2,3,4,5}
-s2={5,6,7,8,4}
+s2={6,7,8,5}
 print(s1.isdisjoint(s2))
 
 # subset - s1 and s2 element are same

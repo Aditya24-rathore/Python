@@ -73,7 +73,7 @@ print(s.isdigit())
 
 # split
 s="This is python"
-print(s.split('s',1))
+print(s.split('s'))
 print(type(s))
 
 # join
