@@ -51,7 +51,7 @@ d2=dict.fromkeys(s)
 print(d2)
 
 l=["python","java","php"]
-d2=dict.fromkeys(l,10)
+d2=dict.fromkeys(l,"hello")
 print(d2)
 
 # setdefault
