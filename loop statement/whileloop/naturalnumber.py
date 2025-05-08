@@ -25,3 +25,16 @@ while i<=n:
         print(i,end='=')
     i=i+1
 print(sum)
+
+# multiplication of natural number
+n=int(input("enter number"))
+i=1
+multiplication=1
+while i<=n:
+    multiplication=multiplication*i
+    if i<=(n-1):
+        print(i,end='+')
+    else:
+        print(i,end='=')
+    i=i+1
+print(multiplication)
