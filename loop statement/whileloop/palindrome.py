@@ -6,13 +6,17 @@ else:
     print(f'{n} is not a palidrome')'''
 
 
-n=int(input("enter number"))
-r=0
-k=n
-while n>0:
-    r=r*10+n%10
-    n=n/10
-if r==k:
-    print("palindrome")
+s=input("enter value")
+l=len(s)
+s1=''
+i=-1
+while l>0:
+    x=s[i]
+    s1="".join((s1,x))
+    i=i-1
+    l=l-1
+print(s1)
+if s==s1:
+    print(f'given string is palindrome')
 else:
-    print("not an palindrome")
+    print(f'given string is not an palindrome')

@@ -15,3 +15,4 @@ if y==sum:
     print(f'{y} is a armstrong')
 else:
     print(f'{y} is not a armstrong')
+    
