@@ -14,3 +14,21 @@ def sum(*n):
 
 x=sum(10,20,30)
 print(x)
+
+# keyword argument
+def sub(**n):
+    print(n)
+    print(type(n))
+
+sub(name="aditya",age=24,)
+
+
+def new(**kwargs):
+    for k,v in kwargs.items():
+        print(k,v)
+new(name="aditya",age=24,)
+
+def new(**kwargs):
+    for k in kwargs.keys():
+        print(k)
+new(name="aditya",age=24,)
