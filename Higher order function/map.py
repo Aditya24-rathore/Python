@@ -27,3 +27,12 @@ def add5(z,y):
 
 a=map(add5,l1,l2)
 print(list(a))
+
+# multiplication
+l1=(5,10,20,35)
+l2=(20,30)
+def mul(z,y):
+    return z*y
+
+b=map(mul,l1,l2)
+print(list(b))
