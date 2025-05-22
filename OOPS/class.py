@@ -12,7 +12,7 @@ obj=First
 print(id(obj))
 
 obj1=First()
-print(id(obj1))
+print(id(obj1))                         
 
 # constructor is method it is call automatically object is call.
 class first:
@@ -25,4 +25,35 @@ obj=first()
 print(id(obj))
 
 # self is a refrence variable it hold the address of current object
+
+class student:
+    def __init__(self,name,city,phone):
+        self.n=name
+        self.c=city
+        self.p=phone
+
+obj=student("aditya","sehore",1111)
+obj1=student("adi","bhopal",2222)
+print(obj.n,obj.c,obj.p)
+print(obj1.n,obj1.c,obj1.p)
+
+# variable:- it is a container that hold the value
+# instance variable :- it depend on the object
+class studentdata:
+    def __init__(self,name,city):
+        self.n=name
+        self.c=city
+        print(self.n,self.c)
+
+    def add(self,phone):
+        self.p=phone
+        print(self.p,obj2.school,self.n,self.c)
+
+obj2=studentdata("adi","sehore")
+obj2.school="st mary"
+obj2.add(1234)
+print(obj2.n,obj2.p,obj2.c,obj2.school)
+        
+# class/static variable:- do not depend on object
+# local variable:-scope dependent
 
