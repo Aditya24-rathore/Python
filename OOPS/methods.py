@@ -13,8 +13,7 @@ class Student:
     def updategrade(cls,updated):
         cls.grade=updated
 
-
-    
+        
 
 obj=Student("Adi")
 obj.showdetails()
