@@ -12,7 +12,7 @@ obj=C()
 print(obj.x)
 print(obj.show())
 
-# protected variable:- not supported in python(it can access only in their child  class)
+# protected variable:- not supported in python(it can access only in     their child  class)
 class P:
     x=10
     def _show(self):
