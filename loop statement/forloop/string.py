@@ -1,4 +1,4 @@
-'''s=input("enter string")
+s=input("enter string")
 for i in s:
     print(i)
 
@@ -27,7 +27,7 @@ sum=0
 for i in range(1,n+1,2):
     sum=sum+i
     print(i,end=",")
-print(sum)'''
+print(sum)
 
 n=int(input("enter range"))
 sum=0

@@ -1,0 +1,1 @@
+# generator creates a collection in more controlled way

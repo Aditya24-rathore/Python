@@ -6,8 +6,8 @@ for i in range(n):
     print()
 
 # pattern2
-n=int(input("enter number"))
+'''n=int(input("enter number"))
 for i in range(n):
     for j in range(1,i+2):
         print(i,end=' ')
-    print()
+    print()'''
