@@ -29,3 +29,4 @@ print(frozenset(x))
 y=10.5
 x=int(y)
 print(type(x))
+
