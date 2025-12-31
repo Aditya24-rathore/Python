@@ -39,3 +39,12 @@ class C(P):
 print(dir(C))
 obj=C()
 print(obj._P__show())
+
+
+# x=input("enter any list")
+# print(x)
+# print(list(x))
+# print(type(x))
+
+y=eval(input("enter any number"))
+print(type(y))
