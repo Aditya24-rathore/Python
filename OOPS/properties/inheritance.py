@@ -1,5 +1,7 @@
 # inheritance :- parent - child relation
-
+# MRO- metod resolutio order MRO use DFS algorithm(Depth first search)
+# Types of inheritance
+# method overridding
 # Single level inheritance
 class Parent:
     x=10
